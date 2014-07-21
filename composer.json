@@ -1,0 +1,22 @@
+{
+    "name": "intuxicated/persian-text",
+    "description": "persian text convertion",
+    "type": "library",
+    "keywords": ["persian number", "persian char", "persian", "tools", "persian tools"],
+    "license": "MIT",
+    "version": "1.0",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Mohammad Niknam",
+            "email": "hidensoft@gmail.com"
+        }
+    ],
+    "require": {},
+    "target-dir": "Intuxicated/PersianChar",
+    "autoload": {
+        "psr-0": {
+            "Intuxicated\\PersianChar\\": ""
+        }
+    }
+}
