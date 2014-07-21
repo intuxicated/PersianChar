@@ -50,4 +50,4 @@ Note that this method will also remove [non printable] characters like U+200F
 
 
 [character table]:http://utf8-chartable.de/unicode-utf8-table.pl?start=1536&utf8=string-literal
-[none printable]:http://en.wikipedia.org/wiki/Non-printing_character.
+[non printable]:http://en.wikipedia.org/wiki/Non-printing_character.
