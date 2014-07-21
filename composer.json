@@ -4,8 +4,7 @@
     "type": "library",
     "keywords": ["persian number", "persian char", "persian", "tools", "persian tools"],
     "license": "MIT",
-    "version": "1.0",
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Mohammad Niknam",
@@ -17,6 +16,11 @@
     "autoload": {
         "psr-0": {
             "Intuxicated\\PersianChar\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
         }
     }
 }
