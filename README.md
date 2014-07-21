@@ -46,7 +46,7 @@ $res = PersianChar::letters('ؠک مټن تﺴت')
 // یک متن تست
 ```
 
-Note that this method will also remove [none printable] characters like U+200F
+Note that this method will also remove [non printable] characters like U+200F
 
 
 [character table]:http://utf8-chartable.de/unicode-utf8-table.pl?start=1536&utf8=string-literal
