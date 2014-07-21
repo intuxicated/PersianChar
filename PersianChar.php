@@ -7,7 +7,7 @@ namespace Intuxicated\PersianChar;
  *
  * Arabic Character table conversion to persian
  *
- * @author mohammad niknam
+ * @author Mohammad Niknam
  * @license MIT
  * @package Intuxicated\PersianChar
  */
