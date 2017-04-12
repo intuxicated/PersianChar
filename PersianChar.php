@@ -162,10 +162,7 @@ class PersianChar{
         for ($i=0; $i < count($from); $i++) { 
             $text = str_replace($from[$i],$to[$i],$text);
         }
-        preg_match('/([!\w\s{*}]+)/ui',$text,$matches);
-        if (! is_array($matches) || count($matches) < 1) {
-            return null;
-        }
-        return (string) $matches[0];
+
+        return text;
     }
 }
