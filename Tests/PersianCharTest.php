@@ -1,10 +1,10 @@
 <?php
-
 namespace Intuxicated\PersianChar\Tests;
 
+use PHPUnit\Framework\TestCase;
 use Intuxicated\PersianChar\PersianChar;
 
-class PersianCharTest extends \PHPUnit_Framework_TestCase {
+final class PersianCharTest extends TestCase {
 
     public function testNumbers(){
         $r = PersianChar::ar_numbers('۱۲۳۴1234١٢٣٤');
@@ -24,4 +24,3 @@ class PersianCharTest extends \PHPUnit_Framework_TestCase {
         $this->assertEquals($r,'ریال الله');
     }
 }
- 
