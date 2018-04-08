@@ -34,6 +34,17 @@ $res = PersianChar::numbers('۱۲۳۴1234١٢٣٤')
 // ۱۲۳۴۱۲۳۴۱۲۳۴
 ```
 
+Arabic/Persian Numbers to English Numbers
+----
+
+Replace both Arabic and English numbers with Persian numbers
+
+```php
+<?php
+$res = PersianChar::fa_to_en_numbers('۱۲۳۴1234١٢٣٤')
+// 123412341234
+```
+
 Letters
 ----
 

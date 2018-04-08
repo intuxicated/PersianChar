@@ -49,6 +49,20 @@ class PersianChar{
     }
 
     /**
+     * Replace both arabic and farsi numbers with english number
+     *
+     * @param string $numbers
+     * @return string
+     */
+    public static function fa_to_en_numbers($numbers){
+        $faNumbers = self::ar_numbers($numbers);
+        $find = array('۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹');
+        $replace    = array('0', '1', '2', '3', '4', '5', '6', '7', '8', '9');
+
+        return (string) str_replace($find,$replace,$faNumbers);
+    }
+
+    /**
      * Replace none persian character with persian character.
      * This method covers most character in arabic character table.
      *
